@@ -2,7 +2,11 @@
 #include <iostream>
 #include <limits>
 using namespace std;
-int main() {
+int main(int argc, char *argv[]) {
+  if (argc > 1) {
+    freopen("library_in_test_file.txt", "r", stdin);
+    freopen("library_out_test_file.txt", "w", stdout);
+  }
   const long MAX = numeric_limits<streamsize>::max();
   cout << "\tWelcome to the digital library program\n";
   Library lib("Library.db");
@@ -33,6 +37,7 @@ int main() {
         lib.addNewBook();
         cout << "Add another book (y/n)? " << flush;
         cin >> again;
+        again = tolower(again);
         cin.ignore(MAX, '\n');
         cout << endl;
       } while (again == 'y');
@@ -42,6 +47,7 @@ int main() {
         lib.findBook(0);
         cout << "Find another book by title (y/n)? " << flush;
         cin >> again;
+        again = tolower(again);
         cin.ignore(MAX, '\n');
         cout << endl;
       } while (again == 'y');
@@ -51,6 +57,7 @@ int main() {
         lib.findBook(1);
         cout << "Find another book by number (y/n)? " << flush;
         cin >> again;
+        again = tolower(again);
         cin.ignore(MAX, '\n');
         cout << endl;
       } while (again == 'y');
@@ -60,6 +67,7 @@ int main() {
         lib.findByAuthor();
         cout << "Find all books by another author (y/n)? " << flush;
         cin >> again;
+        again = tolower(again);
         cin.ignore(MAX, '\n');
         cout << endl;
       } while (again == 'y');
@@ -69,6 +77,7 @@ int main() {
         lib.findByPublisher();
         cout << "Find all books by another publisher (y/n)? " << flush;
         cin >> again;
+        again = tolower(again);
         cin.ignore(MAX, '\n');
         cout << endl;
       } while (again == 'y');
@@ -78,6 +87,7 @@ int main() {
         lib.modifyCost();
         cout << "Modify the cost of another book (y/n)? " << flush;
         cin >> again;
+        again = tolower(again);
         cin.ignore(MAX, '\n');
         cout << endl;
       } while (again == 'y');
@@ -87,6 +97,7 @@ int main() {
         lib.modifyQuantity();
         cout << "Modify the cost of another book (y/n)? " << flush;
         cin >> again;
+        again = tolower(again);
         cin.ignore(MAX, '\n');
         cout << endl;
       } while (again == 'y');
@@ -96,6 +107,7 @@ int main() {
         lib.removeBook();
         cout << "Remove another book (y/n)? " << flush;
         cin >> again;
+        again = tolower(again);
         cin.ignore(MAX, '\n');
         cout << endl;
       } while (again == 'y');
@@ -111,6 +123,7 @@ int main() {
         lib.findByCost();
         cout << "Find books by another cost (y/n)? " << flush;
         cin >> again;
+        again = tolower(again);
         cin.ignore(MAX, '\n');
         cout << endl;
       } while (again == 'y');

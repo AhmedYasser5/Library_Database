@@ -1,0 +1,207 @@
+	Welcome to the digital library program
+	Library.db is open
+	Choose one of the following options:
+		 1- Add a new book to the library
+		 2- Search for a book by title
+		 3- Search for a book by number
+		 4- Find all books by author
+		 5- Find all books by publisher
+		 6- Modify the cost of a book
+		 7- Modify the quantity of a book
+		 8- Remove a book from the library
+		 9- Sort the books by title
+		10- Find all sold-out books (zero quantity)
+		11- Find all books that are more expensive than a given value
+		12- Exit the program
+		**- Print the whole library
+	Your choice is: 
+	Enter its number: 	Enter its title: 	Enter its author: 	Enter its publisher: 	Enter the available quantity: 	Enter the number of pages: 	Enter its cost: 	The book has been added successfully
+Add another book (y/n)? 
+	Enter its number: 	Enter its title: 	Enter its author: 	Enter its publisher: 	Enter the available quantity: 	Enter the number of pages: 	Enter its cost: 	The book has been added successfully
+Add another book (y/n)? 
+	Enter its number: 	Enter its title: 	Enter its author: 	Enter its publisher: 	Enter the available quantity: 	Enter the number of pages: 	Enter its cost: 	The book has been added successfully
+Add another book (y/n)? 
+	Enter its number: 	Enter its title: 	Enter its author: 	Enter its publisher: 	Enter the available quantity: 	Enter the number of pages: 	Enter its cost: 	The book has been added successfully
+Add another book (y/n)? 
+	Enter its number: 	Enter its title: 	Enter its author: 	Enter its publisher: 	Enter the available quantity: 	Enter the number of pages: 	Enter its cost: 	The book has been added successfully
+Add another book (y/n)? 
+
+[H[2J[3J	Choose one of the following options:
+		 1- Add a new book to the library
+		 2- Search for a book by title
+		 3- Search for a book by number
+		 4- Find all books by author
+		 5- Find all books by publisher
+		 6- Modify the cost of a book
+		 7- Modify the quantity of a book
+		 8- Remove a book from the library
+		 9- Sort the books by title
+		10- Find all sold-out books (zero quantity)
+		11- Find all books that are more expensive than a given value
+		12- Exit the program
+		**- Print the whole library
+	Your choice is: 
+	Enter the book's number: 	The book was removed successfully
+Remove another book (y/n)? 
+	Enter the book's number: 	The book was removed successfully
+Remove another book (y/n)? 
+
+[H[2J[3J	Choose one of the following options:
+		 1- Add a new book to the library
+		 2- Search for a book by title
+		 3- Search for a book by number
+		 4- Find all books by author
+		 5- Find all books by publisher
+		 6- Modify the cost of a book
+		 7- Modify the quantity of a book
+		 8- Remove a book from the library
+		 9- Sort the books by title
+		10- Find all sold-out books (zero quantity)
+		11- Find all books that are more expensive than a given value
+		12- Exit the program
+		**- Print the whole library
+	Your choice is: 
+	Enter the book's number: 	Enter its new cost: 	The book was modified successfully
+Modify the cost of another book (y/n)? 
+	Enter the book's number: 	Enter its new cost: 	The book was modified successfully
+Modify the cost of another book (y/n)? 
+
+[H[2J[3J	Choose one of the following options:
+		 1- Add a new book to the library
+		 2- Search for a book by title
+		 3- Search for a book by number
+		 4- Find all books by author
+		 5- Find all books by publisher
+		 6- Modify the cost of a book
+		 7- Modify the quantity of a book
+		 8- Remove a book from the library
+		 9- Sort the books by title
+		10- Find all sold-out books (zero quantity)
+		11- Find all books that are more expensive than a given value
+		12- Exit the program
+		**- Print the whole library
+	Your choice is: 
+	Enter the book's number: 	Enter its new quantity: 	The book was modified successfully
+Modify the cost of another book (y/n)? 
+	Enter the book's number: 	Enter its new quantity: 	The book was modified successfully
+Modify the cost of another book (y/n)? 
+
+[H[2J[3J	Choose one of the following options:
+		 1- Add a new book to the library
+		 2- Search for a book by title
+		 3- Search for a book by number
+		 4- Find all books by author
+		 5- Find all books by publisher
+		 6- Modify the cost of a book
+		 7- Modify the quantity of a book
+		 8- Remove a book from the library
+		 9- Sort the books by title
+		10- Find all sold-out books (zero quantity)
+		11- Find all books that are more expensive than a given value
+		12- Exit the program
+		**- Print the whole library
+	Your choice is: 
+	2 books were found:
+	  ***	Number: 101
+		Book Title: Data Structures and Algorithms
+		Author: Michael Goodrich
+		Publisher: Wiley
+		Available Quantity: 0
+		Number of Pages: 736
+		Cost: 50
+	  ***	Number: 103
+		Book Title: Modern Software Engineering
+		Author: David Farley
+		Publisher: Addison Wesley
+		Available Quantity: 0
+		Number of Pages: 256
+		Cost: 110
+
+[H[2J[3J	Choose one of the following options:
+		 1- Add a new book to the library
+		 2- Search for a book by title
+		 3- Search for a book by number
+		 4- Find all books by author
+		 5- Find all books by publisher
+		 6- Modify the cost of a book
+		 7- Modify the quantity of a book
+		 8- Remove a book from the library
+		 9- Sort the books by title
+		10- Find all sold-out books (zero quantity)
+		11- Find all books that are more expensive than a given value
+		12- Exit the program
+		**- Print the whole library
+	Your choice is: 
+	Enter the cost: 	2 books were found:
+	  ***	Number: 102
+		Book Title: Object Oriented Programming
+		Author: Robert Lafore
+		Publisher: Sams
+		Available Quantity: 35
+		Number of Pages: 750
+		Cost: 100
+	  ***	Number: 103
+		Book Title: Modern Software Engineering
+		Author: David Farley
+		Publisher: Addison Wesley
+		Available Quantity: 0
+		Number of Pages: 256
+		Cost: 110
+Find books by another cost (y/n)? 
+
+[H[2J[3J	Choose one of the following options:
+		 1- Add a new book to the library
+		 2- Search for a book by title
+		 3- Search for a book by number
+		 4- Find all books by author
+		 5- Find all books by publisher
+		 6- Modify the cost of a book
+		 7- Modify the quantity of a book
+		 8- Remove a book from the library
+		 9- Sort the books by title
+		10- Find all sold-out books (zero quantity)
+		11- Find all books that are more expensive than a given value
+		12- Exit the program
+		**- Print the whole library
+	Your choice is: 
+	The library has been sorted successfully
+
+	  ***	Number: 101
+		Book Title: Data Structures and Algorithms
+		Author: Michael Goodrich
+		Publisher: Wiley
+		Available Quantity: 0
+		Number of Pages: 736
+		Cost: 50
+
+	  ***	Number: 103
+		Book Title: Modern Software Engineering
+		Author: David Farley
+		Publisher: Addison Wesley
+		Available Quantity: 0
+		Number of Pages: 256
+		Cost: 110
+
+	  ***	Number: 102
+		Book Title: Object Oriented Programming
+		Author: Robert Lafore
+		Publisher: Sams
+		Available Quantity: 35
+		Number of Pages: 750
+		Cost: 100
+
+[H[2J[3J	Choose one of the following options:
+		 1- Add a new book to the library
+		 2- Search for a book by title
+		 3- Search for a book by number
+		 4- Find all books by author
+		 5- Find all books by publisher
+		 6- Modify the cost of a book
+		 7- Modify the quantity of a book
+		 8- Remove a book from the library
+		 9- Sort the books by title
+		10- Find all sold-out books (zero quantity)
+		11- Find all books that are more expensive than a given value
+		12- Exit the program
+		**- Print the whole library
+	Your choice is: 

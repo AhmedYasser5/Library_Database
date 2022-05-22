@@ -1,0 +1,71 @@
+
+1
+101
+Data Structures and Algorithms
+Michael Goodrich
+Wiley
+40
+736
+50
+Y
+102
+Object Oriented Programming
+Robert Lafore
+Sams
+35
+750
+40
+Y
+103
+Modern Software Engineering
+David Farley
+Addison Wesley
+30
+256
+35
+Y
+104
+Hands-On Machine Learning
+Aurelien Geron
+OReilly
+25
+858
+55
+Y
+105
+Deep Learning
+Ian Goodfellow
+MIT Press
+20
+800
+50
+N
+8
+104
+Y
+105
+N
+6
+102
+100
+Y
+103
+110
+N
+7
+101
+0
+Y
+103
+0
+N
+10
+
+
+11
+95
+N
+9
+
+
+12
