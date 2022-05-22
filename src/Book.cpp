@@ -18,8 +18,8 @@ Book &Book::operator=(const Book &other) {
   return *this;
 }
 ostream &operator<<(ostream &s, const Book &b) {
-  s << "\t  ***\tBook Title: " << b.title;
-  s << "\n\t\tNumber: " << b.number;
+  s << "\t  ***\tNumber: " << b.number;
+  s << "\n\t\tBook Title: " << b.title;
   s << "\n\t\tAuthor: " << b.author;
   s << "\n\t\tPublisher: " << b.publisher;
   s << "\n\t\tAvailable Quantity: " << b.available_quantity;

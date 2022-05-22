@@ -45,7 +45,7 @@ public:
   ~Library();
 
   bool addNewBook();
-  bool findBook();
+  bool findBook(const bool &byTitle);
   bool findByAuthor();
   bool findByPublisher();
   bool modifyCost();

@@ -65,11 +65,11 @@ Library::~Library() {}
 
 bool Library::addNewBook() {
   Book newBook;
-  cout << "\tEnter its title: " << flush;
-  cin.getline(newBook.title, Book::MAX);
   cout << "\tEnter its number: " << flush;
   cin >> newBook.number;
   cin.ignore(MAX, '\n');
+  cout << "\tEnter its title: " << flush;
+  cin.getline(newBook.title, Book::MAX);
   cout << "\tEnter its author: " << flush;
   cin.getline(newBook.author, Book::MAX);
   cout << "\tEnter its publisher: " << flush;
@@ -90,14 +90,10 @@ bool Library::addNewBook() {
   return false;
 }
 
-bool Library::findBook() {
-  cout << "\tFind book by title (t) or number (n)? " << flush;
-  char op;
-  cin >> op;
-  cin.ignore(MAX, '\n');
+bool Library::findBook(const bool &byTitle) {
   Books *lst = NULL;
   Book other;
-  if (op == 't') {
+  if (byTitle) {
     cout << "\tEnter its title: " << flush;
     cin.getline(other.title, Book::MAX);
     search(lst, other, compareByTitle, true);
@@ -275,7 +271,7 @@ bool Library::findSoldOut() {
 }
 
 bool Library::findByCost() {
-  cout << "\tEnter the maximum allowable cost: " << flush;
+  cout << "\tEnter the cost: " << flush;
   Book other;
   cin >> other.cost;
   cin.ignore(MAX, '\n');
@@ -304,8 +300,11 @@ bool Library::print() {
     if (!rfs.get(&cur, i))
       cout << "\tError occured" << endl;
     if (cur.isActive()) {
+      if (ok)
+        cout << endl;
+      else
+        ok = true;
       cout << cur << endl;
-      ok = true;
     }
   }
   if (!ok)
