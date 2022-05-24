@@ -133,13 +133,6 @@ Modify the cost of another book (y/n)?
 		**- Print the whole library
 	Your choice is: 
 	Enter the cost: 	2 books were found:
-	  ***	Number: 102
-		Book Title: Object Oriented Programming
-		Author: Robert Lafore
-		Publisher: Sams
-		Available Quantity: 35
-		Number of Pages: 750
-		Cost: 100
 	  ***	Number: 103
 		Book Title: Modern Software Engineering
 		Author: David Farley
@@ -147,6 +140,13 @@ Modify the cost of another book (y/n)?
 		Available Quantity: 0
 		Number of Pages: 256
 		Cost: 110
+	  ***	Number: 102
+		Book Title: Object Oriented Programming
+		Author: Robert Lafore
+		Publisher: Sams
+		Available Quantity: 35
+		Number of Pages: 750
+		Cost: 100
 Find books by another cost (y/n)? 
 
 [H[2J[3J	Choose one of the following options:
@@ -174,6 +174,14 @@ Find books by another cost (y/n)?
 		Number of Pages: 736
 		Cost: 50
 
+	  ***	Number: 101
+		Book Title: Data Structures and Algorithms
+		Author: Michael Goodrich
+		Publisher: Wiley
+		Available Quantity: 40
+		Number of Pages: 736
+		Cost: 50
+
 	  ***	Number: 103
 		Book Title: Modern Software Engineering
 		Author: David Farley
@@ -181,6 +189,22 @@ Find books by another cost (y/n)?
 		Available Quantity: 0
 		Number of Pages: 256
 		Cost: 110
+
+	  ***	Number: 103
+		Book Title: Modern Software Engineering
+		Author: David Farley
+		Publisher: Addison Wesley
+		Available Quantity: 30
+		Number of Pages: 256
+		Cost: 35
+
+	  ***	Number: 102
+		Book Title: Object Oriented Programming
+		Author: Robert Lafore
+		Publisher: Sams
+		Available Quantity: 35
+		Number of Pages: 750
+		Cost: 40
 
 	  ***	Number: 102
 		Book Title: Object Oriented Programming
