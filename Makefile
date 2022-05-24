@@ -33,7 +33,7 @@ ifeq ($(RELEASE), 1)
 	LDFLAGS += -flto=full
 else ifeq ($(DEBUG), 1)
 	maketype += DEBUG
-	CFLAGS += -O0 -g
+	CFLAGS += -O0 -g -std=c++14
 else
 	maketype += NORMAL
 	CFLAGS += -O0
