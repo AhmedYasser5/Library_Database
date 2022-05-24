@@ -2,11 +2,17 @@
 #include <iostream>
 #include <limits>
 using namespace std;
-int main(int argc, char *argv[]) {
-  if (argc > 1) {
-    freopen("library_in_test_file.txt", "r", stdin);
-    freopen("library_out_test_file.txt", "w", stdout);
-  }
+
+#define IN_FILE "library_in_test_file.txt"
+#define OUT_FILE "library_out_test_file.txt"
+
+int main() {
+#ifdef IN_FILE
+  freopen(IN_FILE, "r", stdin);
+#endif
+#ifdef OUT_FILE
+  freopen(OUT_FILE, "w", stdout);
+#endif
   const long MAX = numeric_limits<streamsize>::max();
   cout << "\tWelcome to the digital library program\n";
   Library lib("Library.db");
